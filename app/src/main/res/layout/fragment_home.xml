@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/tvHomeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+<Button
+    android:layout_marginTop="50dp"
+    android:layout_below="@+id/tvHomeTitle"
+    android:id="@+id/btnRegisterUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add New User"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="#0598ff"
+    android:visibility="invisible"
+    />
+
+
+
+</RelativeLayout>

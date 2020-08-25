@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#43464A">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Get Items"
+        android:textStyle="bold"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnGetScanItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Scan Item"
+        android:background="#F9DB4B"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/btnSaveItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGetScanItems"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:visibility="invisible"
+        android:text="Save Items"
+        android:background="#FFF"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listIventory"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnSaveItems"
+        />
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:id="@+id/tv1"
+    />
+</RelativeLayout>
